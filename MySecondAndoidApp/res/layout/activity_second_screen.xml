@@ -29,8 +29,8 @@
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="47dp"
-        android:background="#F74F74"
         android:ems="10"
+        android:inputType="textFilter"
         android:textSize="20dp" />
 
     <EditText
@@ -40,16 +40,26 @@
         android:layout_above="@+id/send"
         android:layout_alignLeft="@+id/send"
         android:layout_marginBottom="43dp"
-        android:background="#F74F74"
-        android:textColor="#F74F74" />
+        android:editable="false"
+        />
 
     <TextView
         android:id="@+id/pettiQuestion"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignBaseline="@+id/secondTextBox"
-        android:layout_alignParentTop="true"
-        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/firstTextBox"
+        android:gravity="left"
         android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/Hiden"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+      
+        
+        android:background="#ffffff"
+        android:ems="10"
+        android:textColor="#ffffff" />
 
 </RelativeLayout>
